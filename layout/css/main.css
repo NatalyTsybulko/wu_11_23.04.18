@@ -651,3 +651,83 @@ span {
 .btn-footer:active{
   box-shadow: 0 0 15px rgba (0,0,0,0.4) in set; 
 }
+
+/* Media Queries */
+
+/* 992 - 1200 px */
+/*@media screen and (max-width: 1200px) {
+    /*.feature__text {
+        width: 100%;
+    }
+    .picture__img-img {
+       width: 100%;
+    }
+
+    .picture img {
+       width: 100%;
+    }
+
+    .picture-list__overlay {
+       width: 100%;
+    }
+    .icons {
+        margin-bottom: 40px;
+    }
+    /*.true {
+        padding: 88px 10px 195px 10px;
+    }
+    .true__text {
+        width: 100%;
+    }
+}
+
+/* 768 - 992 px */
+/*@media screen and (max-width: 992px) {
+    /*.logo {
+        text-align: center;
+    }
+    .footer {
+        padding-top: 20px;
+    }
+    .footer_title {
+        margin-top: 20px;
+    }
+}
+
+/* 576 - 768 px */
+/*@media screen and (max-width: 768px) {
+   /*.pictures {
+       text-align: center;
+    }
+    .true {
+        padding: 40px;
+    }
+    nav {
+        display: none;
+    }
+}
+/* 320 - 576 px */
+/*@media screen and (max-width: 576px) {
+    /*.header {
+       padding-bottom: 200px;
+    }
+    .offer {
+       margin-top: 50px;
+    }
+    .offer__title {
+        font-size: 30px;
+    }
+    .offer__text {
+        font-size: 16px;
+    }
+    .workspace {
+        background: url(../img/girl.jpg) no-repeat -350px;
+    }
+    .true {
+        padding: 10px;
+    }
+    .true__text {
+        font-size: 30px;
+    }
+}
+
