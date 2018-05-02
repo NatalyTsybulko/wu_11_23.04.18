@@ -1,3 +1,91 @@
+* Media Queries */
+
+/* 992 - 1200 px */
+/*@media screen and (max-width: 1200px) {
+    /*
+    /* 992-1200px*/
+    
+  @media (min-width: 1200px) {
+  .container { 
+   max-width: 1200px; 
+  }
+}
+
+    .feature__text {
+        width: 100%;
+    }
+    .picture__img-img {
+       width: 100%;
+    }
+
+    .picture img {
+       width: 100%;
+    }
+
+    .picture-list__overlay {
+       width: 100%;
+    }
+    .icons {
+        margin-bottom: 40px;
+    }
+    /*.true {
+        padding: 88px 10px 195px 10px;
+    }
+    .true__text {
+        width: 100%;
+    }
+}
+
+/* 768 - 992 px */
+/*@media screen and (max-width: 992px) {
+    /*.logo {
+        text-align: center;
+    }
+    .footer {
+        padding-top: 20px;
+    }
+    .footer_title {
+        margin-top: 20px;
+    }
+}
+
+/* 576 - 768 px */
+/*@media screen and (max-width: 768px) {
+   /*.pictures {
+       text-align: center;
+    }
+    .true {
+        padding: 40px;
+    }
+    nav {
+        display: none;
+    }
+}
+/* 320 - 576 px */
+/*@media screen and (max-width: 576px) {
+    /*.header {
+       padding-bottom: 200px;
+    }
+    .offer {
+       margin-top: 50px;
+    }
+    .offer__title {
+        font-size: 30px;
+    }
+    .offer__text {
+        font-size: 16px;
+    }
+    .workspace {
+        background: url(../img/girl.jpg) no-repeat -350px;
+    }
+    .true {
+        padding: 10px;
+    }
+    .true__text {
+        font-size: 30px;
+    }
+}
+
 /*-------------Подключение шрифтов--------------*/
 
 @font-face {
@@ -626,8 +714,6 @@ span {
   color: #c1c2c4;
   text-align: center;
   margin-right: 10px;
-  padding-top: 4px;
-  
 }
 
 .infoblock{
@@ -672,16 +758,11 @@ span {
   width: 100%;
 }
 
-.aboutcompany{
-  letter-spacing: 0.02em;
-}
-
 .aboutcompany__title{
   font-family: 'Museo Sans 700';
   font-size: 37.5px;
   color: #081d42;
-  margin-bottom: 10px;
-  letter-spacing: 0.02em;
+  margin-bottom: 14px;
 }
 
 .about-company__text a{
@@ -689,8 +770,6 @@ span {
   font-size: 15.62px;
   color: #49556b;
   border-bottom: 1px solid #677081;
-  letter-spacing: 0.02em;
-
 
  }
 
@@ -708,29 +787,14 @@ span {
   color: #9b9fa6;
 }
 
-.aboutcompany__list{
-  margin-left: 0 auto;
-}
-
-.aboutcompany__list__link{
+.aboutcompany__list a{
   font-family: 'Museo Sans 700';
   font-size: 15.83px;
   color: #a1a6af;
-  padding: 10px 15px;
+  margin-left: 30px;
 }
-
-.aboutcompany__list__link:hover{
-  color: #a1a6af;
-}
-
-.aboutcompany__list__link_red{
-  color: #b81c31;
-  border: 2px solid #b81c31;
-}
-
-.aboutcompany__list__link_red:hover{
-  color: #394e78;
-  border: 4px solid #394e78;
+.aboutcompany__list{
+  text-align: left;
 }
 
 .nav-about{
@@ -742,40 +806,21 @@ span {
   margin-bottom: 65px;
 }
 
+/*.aboutcompany__list__link_advantages{
+  border: 2px solid #b81c31;
+  color: #b81c31;
+  padding: 11px 9px 11px 16px;
+}
+
+.aboutcompany__list__link_advantages{
+  color: #b81c31;
+}*/
+
 /*--------------advantages-----------------------*/
 
 .advantages{
-  padding-top: 50px;
+  padding-top: 55px;
   padding-bottom: 45px;
-  letter-spacing: 0.02em;
-}
-
-.advantages__title{
-  font-family: 'Museo Sans 700';
-  font-size: 29.17px;
-  color: #081d42;
-  letter-spacing: 0.02em;
-}
-
-.advantages__title_small{
-  font-family: 'Museo Sans 700';
-  font-size: 18.33px;
-  color: #081d42;
-  letter-spacing: 0.02em;
-}
-
-.advantages-text p{
-  font-family: 'Museo Sans 300';
-  font-size: 15px;
-  color: #404048;
-  letter-spacing: 0.02em;
-}
-
-.advantages__number{
-  font-family: 'Museo Sans 300';
-  font-size: 14px;
-  color: #404048;
-  letter-spacing: 0.02em;
 }
 
 .advantages-icons{
@@ -785,13 +830,11 @@ span {
   background: transparent;
   border: 1px solid#133064;
   margin: auto;
+  
 }
 .advantages-icons {
   background: transparent url(../img/libra.png) no-repeat center center;
 }
-
-.advantages-icons:hover {
-  background: #b81c31 url(../img/libra.png) no-repeat center center;
 
 .strip__about{
   width: 100%;
@@ -803,65 +846,6 @@ span {
 }
 
 .advantages__number{
+  padding-top: 33px;
   padding-bottom: 33px;
-}
-
-.advantages-text{
-  margin-bottom: 50px;
-}
-
-/*---------------capacity-------------------*/
-
-.capacity{
-  padding-bottom: 70px;
-}
-
-.capacity__title{
-  font-family: 'Museo Sans 700';
-  font-size: 29.17px;
-  color: #081d42;
-}
-
-.picture{
-  margin: 42px auto 0;
-}
-
-.picture-list__overlay {
-  background: rgba(119,115,117,0.64);
-  border: 7px solid #9a97a7;
-    color: #fff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all 0.5s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 29.17px;
-    font-family: 'Fontawesome';
-    
-}
-
-.picture-list__overlay p{
-  padding-bottom: 8px;
-}
-
-.picture:hover .picture-list__overlay  {
-  opacity: 1;
-}
-
-.picture__img {
-  position: relative;
-  max-width: 270px;
-  margin: 0 auto;
-}
-
-.picture__img-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
 }

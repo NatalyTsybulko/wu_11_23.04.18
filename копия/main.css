@@ -672,16 +672,11 @@ span {
   width: 100%;
 }
 
-.aboutcompany{
-  letter-spacing: 0.02em;
-}
-
 .aboutcompany__title{
   font-family: 'Museo Sans 700';
   font-size: 37.5px;
   color: #081d42;
-  margin-bottom: 10px;
-  letter-spacing: 0.02em;
+  margin-bottom: 14px;
 }
 
 .about-company__text a{
@@ -689,8 +684,6 @@ span {
   font-size: 15.62px;
   color: #49556b;
   border-bottom: 1px solid #677081;
-  letter-spacing: 0.02em;
-
 
  }
 
@@ -708,31 +701,25 @@ span {
   color: #9b9fa6;
 }
 
-.aboutcompany__list{
-  margin-left: 0 auto;
-}
-
-.aboutcompany__list__link{
+.aboutcompany__list a{
   font-family: 'Museo Sans 700';
   font-size: 15.83px;
   color: #a1a6af;
-  padding: 10px 15px;
+  margin-left: 30px;
+}
+.aboutcompany__list{
+  text-align: left;
 }
 
-.aboutcompany__list__link:hover{
-  color: #a1a6af;
+.aboutcompany__list__link{
+  padding: 13px 10px;
 }
 
 .aboutcompany__list__link_red{
   color: #b81c31;
+  padding: 10px 13px;
   border: 2px solid #b81c31;
-}
-
-.aboutcompany__list__link_red:hover{
-  color: #394e78;
-  border: 4px solid #394e78;
-}
-
+  
 .nav-about{
   height: 100px;
   background: rgba(191, 194, 200, 0.41);
@@ -742,40 +729,45 @@ span {
   margin-bottom: 65px;
 }
 
+/*.aboutcompany__list__link_advantages{
+  border: 2px solid #b81c31;
+  color: #b81c31;
+  padding: 11px 9px 11px 16px;
+}
+
+.aboutcompany__list__link_advantages{
+  color: #b81c31;
+}*/
+
 /*--------------advantages-----------------------*/
 
 .advantages{
-  padding-top: 50px;
+  padding-top: 55px;
   padding-bottom: 45px;
-  letter-spacing: 0.02em;
 }
 
 .advantages__title{
   font-family: 'Museo Sans 700';
   font-size: 29.17px;
   color: #081d42;
-  letter-spacing: 0.02em;
 }
 
 .advantages__title_small{
   font-family: 'Museo Sans 700';
   font-size: 18.33px;
   color: #081d42;
-  letter-spacing: 0.02em;
 }
 
 .advantages-text p{
   font-family: 'Museo Sans 300';
   font-size: 15px;
   color: #404048;
-  letter-spacing: 0.02em;
 }
 
 .advantages__number{
   font-family: 'Museo Sans 300';
   font-size: 14px;
   color: #404048;
-  letter-spacing: 0.02em;
 }
 
 .advantages-icons{
@@ -790,9 +782,6 @@ span {
   background: transparent url(../img/libra.png) no-repeat center center;
 }
 
-.advantages-icons:hover {
-  background: #b81c31 url(../img/libra.png) no-repeat center center;
-
 .strip__about{
   width: 100%;
   height: 1px;
@@ -803,6 +792,7 @@ span {
 }
 
 .advantages__number{
+  
   padding-bottom: 33px;
 }
 
